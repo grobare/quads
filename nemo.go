@@ -1,4 +1,4 @@
-package main
+package piscine
 
 import (
 	"fmt"
@@ -101,13 +101,13 @@ func Repeat(s string, n int) string {
 	return ""
 }
 
-// func main() {
-// 	QuadA(5, 3)
-// 	fmt.Println()
-// 	QuadB(5, 1)
-// 	fmt.Println()
-// 	QuadC(1, 1)
-// 	fmt.Println()
-// 	QuadD(1, 5)
-// 	fmt.Println()
-// } testing
+func main() {
+	QuadA(5, 3)
+	fmt.Println()
+	QuadB(5, 1)
+	fmt.Println()
+	QuadC(1, 1)
+	fmt.Println()
+	QuadD(1, 5)
+	fmt.Println()
+}

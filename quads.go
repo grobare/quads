@@ -105,3 +105,14 @@ func QuadE(x, y int) {
 	Assign("A", "C", "C", "A", "B", "B", "B", "B")
 	Draw(x, y)
 }
+
+func main() {
+	QuadA(5, 3)
+	fmt.Println()
+	QuadB(5, 1)
+	fmt.Println()
+	QuadC(1, 1)
+	fmt.Println()
+	QuadD(1, 5)
+	fmt.Println()
+}
