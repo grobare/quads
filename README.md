@@ -1,4 +1,1 @@
-# quads
-last time i try this
-MY NME IS GROBAR_E BREEE`
-# quadsremote version
+Functions for making rectangular shapes in go with customizable options.
