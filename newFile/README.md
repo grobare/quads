@@ -1,5 +1,3 @@
 # quads
-exercise in go to practise git
-some added lines
-this is completely different now
-hahahha
+last time i try this
+MY NME IS GROBAR_E BREEE`
