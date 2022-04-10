@@ -65,7 +65,7 @@ func CreateRow(width int) { //prints mid rows
 	fmt.Println()
 }
 
-func Draw(width, height int) {
+func draw(width, height int) {
 	if width <= 0 || height <= 0 { //return nothing if arguments are not valid
 		return
 	} else {
@@ -84,26 +84,26 @@ func Draw(width, height int) {
 //calling functions
 func QuadA(x, y int) {
 	Assign("o", "o", "o", "o", "-", "-", "|", "|") //topLeftCorner, topRightCorner, downLeftCorner, downRightCorner, upFill, downFill, leftFill, rightFill
-	Draw(x, y)
+	draw(x, y)
 }
 
 func QuadB(x, y int) {
 	Assign("/", "\\", "\\", "/", "*", "*", "*", "*")
-	Draw(x, y)
+	draw(x, y)
 }
 
 func QuadC(x, y int) {
 	Assign("A", "A", "C", "C", "B", "B", "B", "B")
-	Draw(x, y)
+	draw(x, y)
 }
 
 func QuadD(x, y int) {
 	Assign("A", "C", "A", "C", "B", "B", "B", "B")
-	Draw(x, y)
+	draw(x, y)
 }
 func QuadE(x, y int) {
 	Assign("A", "C", "C", "A", "B", "B", "B", "B")
-	Draw(x, y)
+	draw(x, y)
 }
 
 func main() {
