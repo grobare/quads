@@ -2,7 +2,7 @@ package piscine
 
 import "fmt"
 
-func CreateFirstAndLastRow(w int) {
+/*func CreateFirstAndLastRow(w int) {
 	//w is width of rectangle
 	for i := 0; i < w; i++ {
 		if i == 0 || i == w-1 {
@@ -12,7 +12,7 @@ func CreateFirstAndLastRow(w int) {
 		}
 	}
 	fmt.Print("\n")
-}
+} */
 
 func CreateRow(w int) {
 	//w is width of rect
