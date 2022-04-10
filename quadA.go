@@ -3,7 +3,7 @@ package piscine
 import "fmt"
 
 func CreateFirstAndLastRow(w int) {
-	//w is width of rect
+	//w is width of rectangle
 	for i := 0; i < w; i++ {
 		if i == 0 || i == w-1 {
 			fmt.Print("o")
@@ -27,7 +27,7 @@ func CreateRow(w int) {
 }
 
 func QuadA(w, h int) {
-	// w - width of rect
+	// w - width of rectangle
 	// h - height
 	for i := 0; i < h; i++ {
 		if i == 0 || i == h-1 {
