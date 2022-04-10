@@ -15,7 +15,7 @@ func CreateFirstAndLastRow(w int) {
 }
 
 func CreateRow(w int) {
-	//w is width of rect
+	//w is width of rectange as in characters used to do it
 	for i := 0; i < w; i++ {
 		if i == 0 || i == w-1 {
 			fmt.Print("|")
